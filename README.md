@@ -12,6 +12,8 @@ THE WAY TO SUCCESS
 
 - Files content
 
+- Examples
+
 - Authors
 
 ### Description
@@ -21,6 +23,8 @@ A shell is a microprocessor that executes commands every time the user commands 
 ### Requirements
 
 ### Files content
+
+### Examples
 
 ### Authors
 
