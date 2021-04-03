@@ -14,4 +14,15 @@ THE WAY TO SUCCESS
 
 - Authors
 
+### Description
+
 A shell is a microprocessor that executes commands every time the user commands it. A linux shell is both a command interpreter as well as a programming language that exposes all the services of the operating system to a user or another program with the help of a command line interface.
+
+### Requirements
+
+### Files content
+
+### Authors
+
+- Ana María Román Valencia
+- Juan Pablo Gaviria Barrera
