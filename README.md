@@ -24,6 +24,11 @@ A shell is a microprocessor that executes commands every time the user commands 
 
 ### Files content
 
+| File name | Descripción                        |
+| --------- | ---------------------------------- |
+| shell.h   | header file                        |
+| Authors   | show colaborators for this project |
+
 ### Examples
 
 ### Authors
