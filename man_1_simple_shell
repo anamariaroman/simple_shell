@@ -1,0 +1,21 @@
+.TH SIMPLE SHELL 1 "3 April 2021" "1" "Simple Shell Manual"
+
+.SH NAME
+.B Simple Shell
+- A UNIX command interpreter
+
+.SH SYNOPSIS
+.B ./hsh
+
+.SH DESCRIPTION
+It´s a simple shell that contains features made with Holberton guidelines.
+
+.SH EXAMPLES
+$ ls -l
+.SH AUTHOR
+Written by Ana María Román Valencia and Juan Pablo Gaviria Barrera.
+.RS
+Github:
+.UR https://github.com/anamariaroman/simple_shell
+.UE
+.RE
