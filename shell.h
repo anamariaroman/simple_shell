@@ -10,5 +10,7 @@
 
 int _putchar(char c);
 size_t _strlen(char *str);
+char *_strdup(char *str);
+char *_strchr(char *s, char c);
 
 #endif /* _SHELL_H_ */

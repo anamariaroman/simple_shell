@@ -24,10 +24,14 @@ A shell is a microprocessor that executes commands every time the user commands 
 
 ### Files content
 
-| File name | Descripción                        |
-| --------- | ---------------------------------- |
-| Shell.h   | header file                        |
-| Authors   | show colaborators for this project |
+| File name          | Descripción                                          |
+| ------------------ | ---------------------------------------------------- |
+| shell.h            | Header file with all the prototipes                  |
+| Authors            | File that contains all colaborators for this project |
+| hsh                | Executable file of shell                             |
+| main_shell.c       | Shell interpreter                                    |
+| README.md          | General information of this project                  |
+| man_1_simple_shell | Man page of the simple shell                         |
 
 ### Examples
 
