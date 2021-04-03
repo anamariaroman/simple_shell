@@ -9,7 +9,7 @@
 
 .SH DESCRIPTION
 It´s a simple shell that contains features made with Holberton guidelines. This shell is intentionally minimalistic.
-.SS overview
+.SS OVERVIEW
 Reads line for either a file or the terminal, intreprets them and execute commands.
 
 .SH EXAMPLES
