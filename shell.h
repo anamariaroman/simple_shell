@@ -9,5 +9,6 @@
 #include <sys/types.h>
 
 int _putchar(char c);
+size_t _strlen(char *str);
 
 #endif /* _SHELL_H_ */
