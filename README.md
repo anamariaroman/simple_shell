@@ -31,6 +31,12 @@ A shell is a microprocessor that executes commands every time the user commands 
 
 ### Examples
 
+```
+git status
+git add
+git commit
+```
+
 ### Authors
 
 - Ana María Román Valencia | [Github](https://github.com/anamariaroman) | [Twiter](https://twitter.com/AnaMari77939013)
