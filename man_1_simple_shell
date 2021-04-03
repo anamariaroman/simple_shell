@@ -2,13 +2,15 @@
 
 .SH NAME
 .B Simple Shell
-- A UNIX command interpreter
+- A simple UNIX command line interpreter
 
 .SH SYNOPSIS
 .B ./hsh
 
 .SH DESCRIPTION
-It´s a simple shell that contains features made with Holberton guidelines.
+It´s a simple shell that contains features made with Holberton guidelines. This shell is intentionally minimalistic.
+.SS overview
+Reads line for either a file or the terminal, intreprets them and execute commands.
 
 .SH EXAMPLES
 $ ls -l
