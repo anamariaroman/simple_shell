@@ -8,4 +8,6 @@
 #include <sys/wait.h>
 #include <sys/types.h>
 
+int _putchar(char c);
+
 #endif /* _SHELL_H_ */
