@@ -7,6 +7,9 @@
 #include <string.h>
 #include <sys/wait.h>
 #include <sys/types.h>
+#include <pwd.h>
+#include <sys/mman.h>
+#include <errno.h>
 
 int _putchar(char c);
 size_t _strlen(char *str);
