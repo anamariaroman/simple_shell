@@ -1,8 +1,8 @@
 # Simple Shell 💻
 
-THE WAY TO SUCCESS
-
 <div align="center">
+
+<p>THE WAY TO SUCCESS</p>
 
 <img src= "https://miro.medium.com/max/1204/1*5w2fOfCVL5FdK7oYDJgIHg.png" >
 
