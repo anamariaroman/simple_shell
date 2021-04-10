@@ -1,6 +1,4 @@
-<div align=”center”> [
-
-# Simple Shell
+# Simple Shell 💻
 
 THE WAY TO SUCCESS
 
@@ -43,16 +41,16 @@ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 
 ### Files content
 
-| File name          | Descripción                                          |
-| ------------------ | ---------------------------------------------------- |
-| shell.h            | Header file with all the prototipes                  |
-| Authors            | File that contains all colaborators for this project |
-| hsh                | Executable file of shell                             |
-| main_shell.c       | Shell interpreter                                    |
-| README.md          | General information of this project                  |
-| man_1_simple_shell | Man page of the simple shell                         |
-| \_exit.c           | This file reads the CRTL-D command                   |
-| token.c            | This file separates the string of command line       |
+| File name            | Descripción                                          |
+| -------------------- | ---------------------------------------------------- |
+| `shell.h`            | Header file with all the prototipes                  |
+| `Authors`            | File that contains all colaborators for this project |
+| `hsh`                | Executable file of shell                             |
+| `main_shell.c`       | Shell interpreter                                    |
+| `README.md`          | General information of this project                  |
+| `man_1_simple_shell` | Man page of the simple shell                         |
+| `\_exit.c`           | This file reads the CRTL-D command                   |
+| `token.c`            | This file separates the string of command line       |
 
 ### Examples
 
@@ -68,4 +66,3 @@ git commit
 - Juan Pablo Gaviria Barrera | [Github](https://github.com/Juanpagab99) | [Twiter](https://twitter.com/JuanPab27132211)
 
 05/04/2021
-]</div>
