@@ -49,7 +49,7 @@ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 | `main_shell.c`       | Shell interpreter                                    |
 | `README.md`          | General information of this project                  |
 | `man_1_simple_shell` | Man page of the simple shell                         |
-| `\_exit.c`           | This file reads the CRTL-D command                   |
+| `\_exit.c`           | Function that handles the exit                       |
 | `token.c`            | This file separates the string of command line       |
 
 ### Examples ✔️
