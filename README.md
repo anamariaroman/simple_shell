@@ -1,4 +1,4 @@
-# Simple Shell 💻📡
+<h1 align="center">Simple shell 💻📡</h1> <br>💻📡
 
 <div align="center">
 
