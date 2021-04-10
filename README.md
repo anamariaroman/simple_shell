@@ -10,7 +10,7 @@
 
 <h2 align="center">Contents 📄</h2> <br>
 
-<ul align="center">
+<ul>
   <li>Description.</li>
   <li>Requirements.</li>
   <li>Compilation.</li>
