@@ -1,3 +1,5 @@
+<div align=”center”> [
+
 # Simple Shell
 
 THE WAY TO SUCCESS
@@ -6,7 +8,6 @@ THE WAY TO SUCCESS
 
 <img src= "https://miro.medium.com/max/1204/1*5w2fOfCVL5FdK7oYDJgIHg.png" >
 
-<p>Perfectly balanced</p>
 </div>
 
 ## Contents
@@ -67,3 +68,4 @@ git commit
 - Juan Pablo Gaviria Barrera | [Github](https://github.com/Juanpagab99) | [Twiter](https://twitter.com/JuanPab27132211)
 
 05/04/2021
+]</div>
