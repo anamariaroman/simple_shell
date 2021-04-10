@@ -21,4 +21,3 @@ void _strcat(char *dest, const char *src);
 int _strlen(const char *str);
 
 #endif /* _SHELL_H_ */
-
