@@ -24,7 +24,7 @@
 
 ### Description 📑
 
-A shell is a microprocessor that executes commands every time the user commands it. A linux shell is both a command interpreter as well as a programming language that exposes all the services of the operating system to a user or another program with the help of a command line interface.
+<div align="center">A shell is a microprocessor that executes commands every time the user commands it. A linux shell is both a command interpreter as well as a programming language that exposes all the services of the operating system to a user or another program with the help of a command line interface.</div>
 
 ### Requirements 📣
 
@@ -65,4 +65,4 @@ git commit
 - Ana María Román Valencia | [Github](https://github.com/anamariaroman) | [Twiter](https://twitter.com/AnaMari77939013)
 - Juan Pablo Gaviria Barrera | [Github](https://github.com/Juanpagab99) | [Twiter](https://twitter.com/JuanPab27132211)
 
-<div dir="rtl">09/04/2021</div>
+<div dir="rtl">10/04/2021</div>
