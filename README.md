@@ -10,17 +10,17 @@
 
 <h2 align="center">Contents 📄</h2> <br>
 
-- Description
+- [Description](https://github.com/anamariaroman/simple_shell#description- "Description]") - Description.
 
-- Requirements
+- [Requirements](https://github.com/anamariaroman/simple_shell#requirements- "Requirements]") - Requirements.
 
-- Compilation
+- [Compilation](https://github.com/anamariaroman/simple_shell#compilation- "Compilation]") - Compilation.
 
-- Files content
+- [Files content](https://github.com/anamariaroman/simple_shell#filescontent- "Files content]") - Files content.
 
-- Examples
+- [Examples](https://github.com/anamariaroman/simple_shell#examples- "Examples]") - Examples.
 
-- Authors
+- [Authors](https://github.com/anamariaroman/simple_shell#authors- "Authors]") - Authors.
 
 <h2 align="center">Description 📑</h2> <br>
 
