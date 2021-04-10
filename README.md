@@ -1,3 +1,5 @@
+:EMOJICODE:
+
 # Simple Shell
 
 THE WAY TO SUCCESS
@@ -9,6 +11,8 @@ THE WAY TO SUCCESS
 - Description
 
 - Requirements
+
+- Compilation
 
 - Files content
 
@@ -22,6 +26,17 @@ A shell is a microprocessor that executes commands every time the user commands 
 
 ### Requirements
 
+- Your C programs and functions will be compiled with `gcc 4.8.4` using the flags `-Wall -Werror -Wextra and -pedantic`.
+- Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl.
+
+### Compilation
+
+Your shell will be compiled this way:
+
+```
+gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+```
+
 ### Files content
 
 | File name          | Descripción                                          |
@@ -32,6 +47,8 @@ A shell is a microprocessor that executes commands every time the user commands 
 | main_shell.c       | Shell interpreter                                    |
 | README.md          | General information of this project                  |
 | man_1_simple_shell | Man page of the simple shell                         |
+| \_exit.c           | This file reads the CRTL-D command                   |
+| token.c            | This file separates the string of command line       |
 
 ### Examples
 
