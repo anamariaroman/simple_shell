@@ -1,4 +1,4 @@
-# Simple Shell 💻
+# Simple Shell 💻📡
 
 <div align="center">
 
@@ -8,7 +8,7 @@
 
 </div>
 
-## Contents
+## Contents 📄
 
 - Description
 
@@ -22,16 +22,16 @@
 
 - Authors
 
-### Description
+### Description 📑
 
 A shell is a microprocessor that executes commands every time the user commands it. A linux shell is both a command interpreter as well as a programming language that exposes all the services of the operating system to a user or another program with the help of a command line interface.
 
-### Requirements
+### Requirements 📣
 
 - Your C programs and functions will be compiled with `gcc 4.8.4` using the flags `-Wall -Werror -Wextra and -pedantic`.
 - Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl.
 
-### Compilation
+### Compilation ▪️ ▫️ ◾ ◽ ◼️
 
 Your shell will be compiled this way:
 
@@ -39,7 +39,7 @@ Your shell will be compiled this way:
 gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 ```
 
-### Files content
+### Files content 📕 📗 📘 📙 📓 📔 📒
 
 | File name            | Descripción                                          |
 | -------------------- | ---------------------------------------------------- |
@@ -52,7 +52,7 @@ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 | `\_exit.c`           | This file reads the CRTL-D command                   |
 | `token.c`            | This file separates the string of command line       |
 
-### Examples
+### Examples ✔️
 
 ```
 git status
@@ -60,9 +60,9 @@ git add
 git commit
 ```
 
-### Authors
+### Authors 👩 👦
 
 - Ana María Román Valencia | [Github](https://github.com/anamariaroman) | [Twiter](https://twitter.com/AnaMari77939013)
 - Juan Pablo Gaviria Barrera | [Github](https://github.com/Juanpagab99) | [Twiter](https://twitter.com/JuanPab27132211)
 
-05/04/2021
+09/04/2021 ⚡
