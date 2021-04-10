@@ -65,4 +65,4 @@ git commit
 - Ana María Román Valencia | [Github](https://github.com/anamariaroman) | [Twiter](https://twitter.com/AnaMari77939013)
 - Juan Pablo Gaviria Barrera | [Github](https://github.com/Juanpagab99) | [Twiter](https://twitter.com/JuanPab27132211)
 
-                                                                                                               09/04/2021
+<div dir="rtl">09/04/2021</div>
