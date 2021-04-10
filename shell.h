@@ -12,12 +12,13 @@
 #include<sys/mman.h>
 #include<errno.h>
 
+void _strcpy(char *dest, char *src, int n);
 int _putchar(char c);
-size_t _strlen(char *str);
-char *_strdup(char *str);
-char *_strchr(char *s, char c);
-int _strcmp(char *s1, char *s2);
+void _exit(char *command, ssize_t controller);
 int p_text(char *text);
+bool _strcmp(const char *s1, const char *s2, int ini, int fin);
+void _strcat(char *dest, const char *src);
+int _strlen(const char *str);
 
 #endif /* _SHELL_H_ */
 
