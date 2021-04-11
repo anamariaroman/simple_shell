@@ -19,5 +19,6 @@ int p_text(char *text);
 bool _strcmp(const char *s1, const char *s2, int ini, int fin);
 void _strcat(char *dest, const char *src);
 int _strlen(const char *str);
+char **_strtok(char *j)
 
 #endif /* _SHELL_H_ */
