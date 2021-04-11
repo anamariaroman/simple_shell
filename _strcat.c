@@ -11,7 +11,7 @@ void _strcat(char *dest, const char *src)
 
 	length = _strlen(dest);
 
-	for (i = 0, src[i] != '\0' ; i++)
+	for (i = 0; src[i] != '\0' ; i++)
 	{
 		dest[length++] = src[i];
 	}

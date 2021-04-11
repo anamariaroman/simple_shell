@@ -11,14 +11,15 @@
 #include<pwd.h>
 #include<sys/mman.h>
 #include<errno.h>
+#include<stdbool.h>
 
 /* All prototypes of this project */
 int _putchar(char c);
-void _exit(char *command, ssize_t controller);
-int p_text(char *text);
+void _exit_(char *command, ssize_t controller);
+int _write(char *text);
 bool _strcmp(const char *s1, const char *s2, int ini, int fin);
 void _strcat(char *dest, const char *src);
-int _strlen(const char *str);
+size_t _strlen(char *str);
 char **_strtok(char *j);
 void _prompt(int ac);
 

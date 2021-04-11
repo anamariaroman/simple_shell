@@ -7,6 +7,6 @@ void _prompt(int ac)
 {
 	if (ac == 1)
 	{
-		write(STDOUT_FILENO, "$ ", 2);
+		write(STDOUT_FILENO, "$ ", 3);
 	}
 }

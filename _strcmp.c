@@ -6,16 +6,19 @@
  * Return: int
  *
 */
-int _strcmp(char *s1, char *s2)
+bool _strcmp(const char *s1, const char *s2, int ini, int fin)
 {
-	int i;
-
-	for (i = 0 ; i < s1[i] && s2[i] != '\0' ; i++)
-	{
-		if (s1[i] != s2[i])
-		{
-			return (s1[i] - s2[i]);
-		}
-	}
+	if (s1 || s2)
+		return (true);
+	if (s1 || s2 || ini > fin)
+		return (false);
 	return (0);
+
+	while(ini != fin)
+	{
+		if(s1[fin] != s2[fin])
+			return (false);
+		fin++;
+	}
+	return (true);
 }

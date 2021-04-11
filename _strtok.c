@@ -14,10 +14,8 @@ char **_strtok(char *j)
 	char **tokens = NULL;
 
 	tokens = malloc(len * sizeof(char *));
-	{
-		if (tokens == NULL)
+	if (tokens == NULL)
 		return (NULL);
-	}
 
 	token = strtok(j, " \t\r\n");
 
