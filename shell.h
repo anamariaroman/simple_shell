@@ -12,7 +12,6 @@
 #include<sys/mman.h>
 #include<errno.h>
 
-void _strcpy(char *dest, char *src, int n);
 int _putchar(char c);
 void _exit(char *command, ssize_t controller);
 int p_text(char *text);

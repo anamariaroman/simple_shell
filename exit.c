@@ -6,7 +6,7 @@
 */
 void _exit(char *command, ssize_t controller)
 {
-	if (_strcmp(line,"exit",0,3))
+	if (_strcmp(line, "exit", 0, 3))
 	{
 		if (controller == EOF)
 			write(1, "\n", 1);
@@ -14,7 +14,7 @@ void _exit(char *command, ssize_t controller)
 	}
 	if (controller == EOF)
 	{
-		write(1, "\n",1);
+		write(1, "\n", 1);
 		exit(0);
 	}
 }

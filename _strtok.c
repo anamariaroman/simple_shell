@@ -2,7 +2,8 @@
 
 /**
  * _strtok - find the funcion and returns the value
- *
+ * @j: string to make token
+ * Return: num of tokens
 */
 
 char **_strtok(char *j)
