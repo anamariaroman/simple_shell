@@ -10,14 +10,12 @@
 
 <h2 align="center">Contents 📄</h2> <br>
 
-<ul>
-  <li>Description.</li>
-  <li>Requirements.</li>
-  <li>Compilation.</li>
-  <li>Files content.</li>
-  <li>Examples.</li>
-  <li>Authors.</li>
-</ul>
+- Description
+- Requirements
+- Compilation
+- Files content
+- Examples
+- Authors
 
 <h2 align="center">Description 📑</h2> <br>
 
