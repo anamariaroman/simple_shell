@@ -49,7 +49,8 @@ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 
 <h2 align="center">Examples ✔️</h2> <br>
 
-<h3 align="center">Interactive mode ✔️</h3> <br>
+<h3 align="center">Interactive mode</h3> <br>
+
 ```
 $ ls -l
 total 80
@@ -71,8 +72,6 @@ total 80
 -rw-rw-r-- 1 vagrant vagrant 1001 Apr 11 22:08 man_1_simple_shell
 -rwxrwxr-x 1 vagrant vagrant 13745 Apr 11 23:38 prueba
 -rw-rw-r-- 1 vagrant vagrant 614 Apr 11 22:45 shell.h
-
-```
 
 ```
 
