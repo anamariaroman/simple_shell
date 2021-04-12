@@ -63,8 +63,6 @@ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 
 <h3>Interactive mode</h3> <br>
 
-In this mode its not necessary to run the executable directly.
-
 ```
 $ ls -l
 total 80
@@ -90,6 +88,8 @@ total 80
 ```
 
 <h3>Non Interactive mode</h3> <br>
+
+In this mode it don't need to run the executable directly.
 
 ```
 $ echo "ls -l" | ./hsh
