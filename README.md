@@ -49,7 +49,7 @@ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 
 <h2 align="center">Examples ✔️</h2> <br>
 
-<h3 align="center">Interactive mode</h3> <br>
+<h3>Interactive mode</h3> <br>
 
 ```
 $ ls -l
@@ -75,7 +75,7 @@ total 80
 
 ```
 
-<h3 align="center">Interactive mode</h3> <br>
+<h3>Non Interactive mode</h3> <br>
 
 ```
 $ echo "ls -l" | ./hsh
