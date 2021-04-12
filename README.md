@@ -75,6 +75,32 @@ total 80
 
 ```
 
+<h3 align="center">Interactive mode</h3> <br>
+
+```
+$ echo "ls -l" | ./hsh
+total 80
+
+-rw-rw-r-- 1 vagrant vagrant 160 Apr 10 07:24 AUTHORS
+-rw-rw-r-- 1 vagrant vagrant 2394 Apr 11 22:08 README.md
+-rw-rw-r-- 1 vagrant vagrant 162 Apr 11 22:35 \_prompt.c
+-rw-rw-r-- 1 vagrant vagrant 246 Apr 11 22:37 \_putchar.c
+-rw-rw-r-- 1 vagrant vagrant 279 Apr 11 22:37 \_strcat.c
+-rw-rw-r-- 1 vagrant vagrant 289 Apr 11 20:55 \_strchr.c
+-rw-rw-r-- 1 vagrant vagrant 348 Apr 11 22:45 \_strcmp.c
+-rw-rw-r-- 1 vagrant vagrant 392 Apr 11 20:55 \_strdup.c
+-rw-rw-r-- 1 vagrant vagrant 180 Apr 11 22:45 \_strlen.c
+-rw-rw-r-- 1 vagrant vagrant 591 Apr 11 23:00 \_strtok.c
+-rw-rw-r-- 1 vagrant vagrant 229 Apr 11 22:32 \_write.c
+-rwxrwxr-x 1 vagrant vagrant 59 Apr 10 07:24 compile
+-rw-rw-r-- 1 vagrant vagrant 337 Apr 11 22:57 exit_control.c
+-rw-rw-r-- 1 vagrant vagrant 629 Apr 11 23:38 main_shell.c
+-rw-rw-r-- 1 vagrant vagrant 1001 Apr 11 22:08 man_1_simple_shell
+-rwxrwxr-x 1 vagrant vagrant 13745 Apr 11 23:38 prueba
+-rw-rw-r-- 1 vagrant vagrant 614 Apr 11 22:45 shell.h
+
+```
+
 <h2 align="center">Authors 👩 👦</h2> <br>
 
 - Ana María Román Valencia | [Github](https://github.com/anamariaroman) | [Twiter](https://twitter.com/AnaMari77939013)
