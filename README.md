@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<p>THE WAY TO SUCCESS</p>
+<p>__THE WAY TO SUCCESS__</p>
 
 <img src= "https://miro.medium.com/max/1204/1*5w2fOfCVL5FdK7oYDJgIHg.png" >
 
@@ -51,7 +51,7 @@ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 
 <h2 align="center">Examples ✔️</h2> <br>
 
-Same example but with a different method `ls -l` command but different mode.
+Same example with `ls -l` command but different mode.
 
 ```
 gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
