@@ -1,4 +1,10 @@
 #include "shell.h"
+/**
+* main - funtion main of shell
+*
+*
+*
+*/
 int main(int ac, char ** av, char * env)
 {
 	size_t buff;
@@ -12,7 +18,7 @@ int main(int ac, char ** av, char * env)
 
 	if (ac == 1)
 	{
-		while(controller != EOF)
+		while (controller != EOF)
 		{
 			_prompt(ac);
 			controller = getline(&command, &buff, stdin);

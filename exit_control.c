@@ -2,7 +2,7 @@
 
 /**
  * exit_control - use ctrl -D
- * @line: command line
+ * @command: command line
  * @controller: command line size
 */
 

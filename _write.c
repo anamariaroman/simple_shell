@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
-* p_text - Print text
+* _write - Print text
 * @text: text to print
 * Return: print position per position
 */

@@ -3,6 +3,8 @@
  * _strcmp - compare 2 strings
  * @s1: 1
  * @s2: 2
+ * @ini: beginning of the interval
+ * @fin: end of the interval
  * Return: int
  *
 */
@@ -14,9 +16,9 @@ bool _strcmp(const char *s1, const char *s2, int ini, int fin)
 		return (false);
 	return (0);
 
-	while(ini != fin)
+	while (ini != fin)
 	{
-		if(s1[fin] != s2[fin])
+		if (s1[fin] != s2[fin])
 			return (false);
 		fin++;
 	}
