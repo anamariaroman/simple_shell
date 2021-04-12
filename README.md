@@ -23,8 +23,8 @@ A shell is a microprocessor that executes commands every time the user commands 
 
 <h2 align="center">Requirements 📣</h2> <br>
 
-- Your C programs and functions will be compiled with `gcc 4.8.4` using the flags `-Wall -Werror -Wextra and -pedantic`.
-- Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl.
+- [x] Your C programs and functions will be compiled with `gcc 4.8.4` using the flags `-Wall -Werror -Wextra and -pedantic`.
+- [x] Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl.
 
 <h2 align="center">Compilation ▪️ ▫️ ◾ ◽ ◼️</h2> <br>
 
@@ -36,18 +36,30 @@ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 
 <h2 align="center">Files content 📕 📗 📘 📙 📓 📔 📒</h2> <br>
 
-| File name            | Descripción                                          |
-| -------------------- | ---------------------------------------------------- |
-| `shell.h`            | Header file with all the prototipes                  |
-| `Authors`            | File that contains all colaborators for this project |
-| `hsh`                | Executable file of shell                             |
-| `main_shell.c`       | Shell interpreter                                    |
-| `README.md`          | General information of this project                  |
-| `man_1_simple_shell` | Man page of the simple shell                         |
-| `\_exit.c`           | Function that handles the exit                       |
-| `token.c`            | This file separates the string of command line       |
+| File name            | Descripción                                                           |
+| -------------------- | --------------------------------------------------------------------- |
+| `shell.h`            | Header file with all the prototipes                                   |
+| `Authors`            | File that contains all colaborators for this project                  |
+| `hsh`                | Executable file of shell                                              |
+| `main_shell.c`       | Shell interpreter                                                     |
+| `README.md`          | General information of this project                                   |
+| `man_1_simple_shell` | Man page of the simple shell                                          |
+| `exit_control.c`     | Function that handles the exit                                        |
+| `token.c`            | This file separates the string of command line                        |
+| `_prompt.c`          | This file make a prompt `$ `                                          |
+| `compile`            | Script that contains `gcc -Wall -Werror -Wextra -pedantic *.c -o hsh` |
 
 <h2 align="center">Examples ✔️</h2> <br>
+
+Same example with `ls -l` command but different mode.
+
+```
+gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+```
+
+```
+./hsh
+```
 
 <h3>Interactive mode</h3> <br>
 
