@@ -51,7 +51,7 @@ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 
 <h2 align="center">Examples ✔️</h2> <br>
 
-Same example with `ls -l` command but different mode.
+Same example with `ls -l` command but with a different mode.
 
 ```
 gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
