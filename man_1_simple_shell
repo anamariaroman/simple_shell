@@ -5,15 +5,17 @@
 - A simple UNIX command line interpreter
 
 .SH SYNOPSIS
-.B A shell is a microprocessor that executes commands every time the user commands it. A linux shell is both a command interpreter as well as a programming language that exposes all the services of the operating system to a user or another program with the help of a command line interface.
+.B ./hsh
+ $ ls -l
 
+Where '$' is a prompt, and you can write any command.
 .SH DESCRIPTION
 It´s a simple shell that contains features made with Holberton guidelines. This shell is intentionally minimalistic.
 
 .SH OVERVIEW
 Reads line for either a file or the terminal, intreprets them and execute commands.
 
-.SH MODES
+.SH METHODS
 .P
 .RS
 .B Interactive mode
@@ -27,14 +29,11 @@ $ ls -l
 
 $ echo "ls -l" | ./hsh
 
+.SH BUGS
+No known bugs, tell us if yoy can see it.
+
 .SH AUTHORS
 
 Ana María Román Valencia.  <anamariaromanvalencia@gmail.com>
 
 Juan Pablo Gaviria Barrera.  <juanpagab99@gmail.com>
-.RS
-
-Github:
-.UR https://github.com/anamariaroman/simple_shell
-.UE
-.RE
