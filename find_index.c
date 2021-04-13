@@ -4,6 +4,7 @@
 * @s: path
 * @separator: separator
 * @j: path_fin
+* Return: number of posicion that contains the equality
 */
 int find_index(const char *s, const char *separator, int j)
 {
