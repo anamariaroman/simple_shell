@@ -23,7 +23,10 @@ int _strlen(char *str);
 char **_strtok(char *j);
 void _prompt(int ac);
 void _strcpy(char *dest, const char *src);
-char _path(char ** env, char *command);
+char *_path(char **env, char *command);
 int find_index(const char *s, const char *separator, int j);
+void obtain_seq(const char *s, int ini, int fin, char **direction);
+bool env_bool(char *s, char *env[]);
+void p_env(char **env);
 
 #endif /* _SHELL_H_ */
