@@ -5,7 +5,7 @@
 * @command: command line
 * Return: char bin
 */
-char *_path(char **env, char *command)
+char *_path_(char **env, char *command)
 {
 	char *path, *ctok, *bin;
 	int i, plength = 0, path_ini = 0, path_fin = 5;

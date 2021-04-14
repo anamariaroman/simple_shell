@@ -16,7 +16,7 @@ bool _strcmp(const char *s1, const char *s2, int ini, int fin)
 		return (false);
 
 	do {
-		if (s1[ini] != s2[fin])
+		if (s1[ini] != s2[ini])
 			return (false);
 		ini++;
 	} while (ini != fin);

@@ -25,6 +25,6 @@ void exit_control(char *command, ssize_t controller);
 int find_index(const char *s, const char *separator, int j);
 void obtain_seq(const char *s, int ini, int fin, char **direction);
 void p_env(char **env);
-char *_path(char **env, char *command);
+char *_path_(char **env, char *command);
 
 #endif /* _SHELL_H_ */

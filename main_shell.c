@@ -4,7 +4,7 @@
 * @ac: first argument
 * @av: vector
 * @env: enviroment
-* Return: 0
+* Return:0
 */
 int main(int ac, char *av[], char *env[])
 {
@@ -32,7 +32,7 @@ int main(int ac, char *av[], char *env[])
 		{
 			if (id == 0)
 			{
-				if (execve(_path(env, tokenize[0]), tokenize, NULL) == EOF)
+				if (execve(_path_(env, tokenize[0]), tokenize, NULL) == EOF)
 				{
 					perror("Not command found");
 					return (-1);
