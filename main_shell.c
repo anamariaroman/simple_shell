@@ -5,7 +5,7 @@
 *
 *
 */
-int main(int ac, char ** av, char * env)
+int main(int ac, char *av[], char *env[])
 {
 	size_t buff;
 	ssize_t controller = 0;
@@ -14,7 +14,6 @@ int main(int ac, char ** av, char * env)
 	pid_t id;
 	char **tokenize = NULL;
 	/* valgrid review */
-	extern char **environ;
 
 	if (ac == 1)
 	{
@@ -29,7 +28,7 @@ int main(int ac, char ** av, char * env)
 				return (-1);
 			if (id == 0)
 			{
-				if ((execve(tokenize[0], tokenize, NULL) == -1))
+				if ((execve(_path(env, tokenize[0]), tokenize, NULL) == -1))
 				{
 					perror("Error:");
 					return (-1);
@@ -39,4 +38,5 @@ int main(int ac, char ** av, char * env)
 				wait(NULL);
 		}
 	}
+	(void)av;
 }
