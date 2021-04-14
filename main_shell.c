@@ -1,9 +1,10 @@
 #include "shell.h"
 /**
 * main - funtion main of shell
-*
-*
-*
+* @ac: first argument
+* @av: vector
+* @env: enviroment
+* Return: 0
 */
 int main(int ac, char *av[], char *env[])
 {

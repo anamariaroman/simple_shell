@@ -19,21 +19,16 @@ char *_path(char **env, char *command)
 	plength = _strlen(path);
 	path_ini = path_fin + 1; /* / */
 	path_fin = find_index(path, ":", path_ini);
-
 	ctok = malloc(sizeof(char) * (path_fin - path_ini));
 	if (!ctok)
 		return (NULL);
-
 	bin = malloc(sizeof(ctok) + sizeof(command));
 	if (!bin)
 		return (NULL);
-
 	obtain_seq(path, path_ini, path_fin, &ctok);
-
 	_strcpy(bin, ctok);
 	_strcat(bin, "/");
 	_strcat(bin, command);
-
 	while (access(bin, F_OK) == -1)
 	{
 		if (plength == path_fin)

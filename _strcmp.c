@@ -15,10 +15,10 @@ bool _strcmp(const char *s1, const char *s2, int ini, int fin)
 	if (!s1 || !s2 || ini > fin)
 		return (false);
 
-	do{
+	do {
 		if (s1[ini] != s2[fin])
 			return (false);
 		ini++;
-	}while (ini != fin);
+	} while (ini != fin);
 	return (true);
 }
