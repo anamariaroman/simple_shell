@@ -18,16 +18,16 @@ int main(int ac, char *av[], char *env[])
 
 	while (controller != EOF)
 	{
-		_prompt(ac);
+		if (isatty(STDIN_FILENO))
+			_prompt(ac);
 		controller = getline(&command, &buff, stdin);
-		exit_control(command, controller);
 		tokenize = _strtok(command);
-		id = fork();
-		if (id < 0)
-			return (-1);
-
 		if (!env_bool(tokenize[0], env))
 		{
+			exit_control(command, controller);
+			id = fork();
+			if (id < 0)
+				return (-1);
 			if (id == 0)
 			{
 				if (execve(_path_(env, tokenize[0]), tokenize, NULL) == EOF)
