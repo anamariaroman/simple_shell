@@ -2,7 +2,6 @@
 /**
  * p_env - print the out of env
  * @env: env
- *
  */
 void p_env(char **env)
 {

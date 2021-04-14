@@ -15,22 +15,25 @@ int main(int ac, char *av[], char *env[])
 	char **tokenize = NULL;
 	/* valgrid review */
 
-	if (ac == 1)
+	while (controller != EOF)
 	{
-		while (controller != EOF)
-		{
+		if (isatty(STDIN_FILENO))
 			_prompt(ac);
-			controller = getline(&command, &buff, stdin);
-			/*exit_control(command, controller);*/
-			tokenize = _strtok(command);
-			id = fork();
-			if (id < 0)
-				return (-1);
+
+		controller = getline(&command, &buff, stdin);
+		exit_control(command, controller);
+		tokenize = _strtok(command);
+		id = fork();
+		if (id < 0)
+			return (-1);
+
+		if (!env_bool(tokenize[0], env))
+		{
 			if (id == 0)
 			{
-				if ((execve(_path(env, tokenize[0]), tokenize, NULL) == -1))
+				if (execve(_path(env, tokenize[0]), tokenize, NULL) == EOF)
 				{
-					perror("Error:");
+					perror("Not command found");
 					return (-1);
 				}
 			}
@@ -39,4 +42,6 @@ int main(int ac, char *av[], char *env[])
 		}
 	}
 	(void)av;
+	free(command);
+	return (0);
 }

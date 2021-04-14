@@ -8,15 +8,17 @@
 */
 int find_index(const char *s, const char *separator, int j)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; separator[i]; i++)
+	while (separator[i])
 	{
-		for (; s[j]; j++)
+		while (s[j])
 		{
 			if (s[j] == separator[i])
 				return (j);
+			j++;
 		}
+		i++;
 	}
 	return (j);
 }

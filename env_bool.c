@@ -1,5 +1,4 @@
 #include "shell.h"
-
 /**
  * env_bool - controls the built-in env command
  * @s: string
