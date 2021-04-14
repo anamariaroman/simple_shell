@@ -5,7 +5,7 @@
 * @command: command line
 * Return: char bin
 */
-char _path(char **env, char *command)
+char *_path(char **env, char *command)
 {
 	char *path, *ctok, *bin;
 	int i, plength = 0, path_ini = 0, path_fin = 5;
@@ -29,18 +29,18 @@ char _path(char **env, char *command)
 
 	obtain_seq(path, path_ini, path_fin, &ctok);
 
-	_strcpy(bin, tok);
+	_strcpy(bin, ctok);
 	_strcat(bin, "/");
 	_strcat(bin, command);
 
 	while (access(bin, F_OK) == -1)
 	{
-		if (path != path_fin)
+		if (plength != path_fin)
 			return (command);
 		path_ini = path_fin + 1; /* / */
 		path_fin = find_index(path, ":", path_fin);
 		obtain_seq(path, path_ini, path_fin, &ctok);
-		_strcpy(bin, tok);
+		_strcpy(bin, ctok);
 		_strcat(bin, "/");
 		_strcat(bin, command);
 	}
