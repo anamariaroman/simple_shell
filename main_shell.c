@@ -18,9 +18,7 @@ int main(int ac, char *av[], char *env[])
 
 	while (controller != EOF)
 	{
-		if (isatty(STDIN_FILENO))
-			_prompt(ac);
-
+		_prompt(ac);
 		controller = getline(&command, &buff, stdin);
 		exit_control(command, controller);
 		tokenize = _strtok(command);
