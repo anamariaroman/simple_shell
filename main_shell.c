@@ -16,7 +16,7 @@ void _continue_(char **tok, char **env, char *cmd, struct stat *pi)
 	{
 		free(tok);
 		free(cmd);
-		write(STDOUT_FILENO, "This is a error message", 23);
+		write(STDOUT_FILENO, "This is a error message\n", 25);
 		exit(127);
 	}
 }
@@ -51,6 +51,7 @@ int main(int argc, char *argv[], char *env[])
 		if (!env_bool(tokenize[0], env))
 		{
 			id = fork();
+			wait(NULL);
 			if (id < 0)
 			{
 				return (-1);
