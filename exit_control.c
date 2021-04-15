@@ -8,7 +8,14 @@
 
 void exit_control(char *command, ssize_t controller)
 {
-	if (_strcmp(command, "exit", 0, 3) || controller == -1)
+	if (controller == -1)
+	{
+		free(command);
+		command = NULL;
+		_putchar('\n');
+		exit(0);
+	}
+	if (_strcmp(command, "exit", 0, 3))
 	{
 		free(command);
 		command = NULL;
