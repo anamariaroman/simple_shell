@@ -35,7 +35,7 @@ A shell is a microprocessor that executes commands every time the user commands 
   ** Interactive mode **
 
 - Run the executable that was created on the previous step: `./hsh`
-- Now, you can try the following commands: `"pwd"` `ls` `w`
+- Now, you can try the following commands: `pwd` `ls` `w`
 
   ** Non interactive mode **
 
