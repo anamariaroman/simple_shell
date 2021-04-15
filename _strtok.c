@@ -32,7 +32,7 @@ char **_strtok(char *j)
 	char *token = NULL;
 	char **tokens = NULL;
 
-	tokens = malloc((cletter(j + 1)) * sizeof(char *));
+	tokens = malloc((cletter(j) + 1)) * sizeof(char *));
 	if (tokens == NULL)
 		return (NULL);
 
