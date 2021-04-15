@@ -1,8 +1,29 @@
 #include "shell.h"
 /**
+ * _continue_ - main continue
+ * @tok: tokenize
+ * @env: env
+ * @cmd: command
+ * @pi: stat
+ */
+void _continue_(char **tok, char **env, char *cmd, struct stat *pi)
+{
+	if (stat(tok[0], pi) == 0)
+	{
+		execve(tok[0], tok, env);
+	}
+	else
+	{
+		free(tok);
+		free(cmd);
+		write(STDOUT_FILENO, "This is a error message", 23);
+		exit(127);
+	}
+}
+/**
 * main - funtion main of shell
-* @ac: first argument
-* @av: vector
+* @argc: first argument
+* @argv: vector
 * @env: enviroment
 * Return:0
 */
@@ -16,6 +37,7 @@ int main(int argc, char *argv[], char *env[])
 	char **tokenize = NULL;
 	/* valgrid review */
 	/* statuswith an int of getline */
+	struct stat pi;
 
 	while (status != EOF)
 	{
@@ -34,22 +56,15 @@ int main(int argc, char *argv[], char *env[])
 				return (-1);
 			}
 			if (id == 0)
-			{
-				if (execve(_path_(env, tokenize[0]), tokenize, NULL) == EOF)
-				{
-					perror("Not command found");
-					return (-1);
-				}
-			}
+				_continue_(tokenize, env, command, &pi);
 			else
 			{
-				wait(NULL);
+				if (!isatty(STDIN_FILENO))
+					_exit_(command, status);
 			}
 			free(tokenize);
 		}
 	}
 	(void)argv;
-	free(command);
-	free(tokenize);
 	return (0);
 }
