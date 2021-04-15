@@ -1,6 +1,6 @@
 #include"shell.h"
 /**
-* _path - identifi a path
+* _path_ - identifi a path
 * @env: enviroment
 * @command: command line
 * Return: char bin
