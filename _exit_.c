@@ -1,11 +1,9 @@
 #include "shell.h"
-
 /**
  * exit_control - use ctrl -D
  * @command: command line
  * @controller: command line size
 */
-
 void _exit_(char *command, ssize_t status)
 {
 	if (status == -1)

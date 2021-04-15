@@ -16,7 +16,6 @@ int cletter(char *letters)
 		}
 		i++;
 	}
-
 	if (letters[0] != 32)
 		l++;
 	return (l);
