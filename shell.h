@@ -13,7 +13,7 @@
 #include <sys/stat.h>
 
 /* All prototypes of this project */
-void _prompt(int ac);
+void cisfun(int argc);
 int _putchar(char c);
 void _strcat(char *dest, const char *src);
 bool _strcmp(const char *s1, const char *s2, int ini, int fin);
@@ -21,10 +21,11 @@ void _strcpy(char *dest, const char *src);
 int _strlen(const char *str);
 char **_strtok(char *j);
 bool env_bool(char *s, char *env[]);
-void exit_control(char *command, ssize_t controller);
+void _exit_(char *command, ssize_t controller);
 int find_index(const char *s, const char *separator, int j);
 void obtain_seq(const char *s, int ini, int fin, char **direction);
 void p_env(char **env);
 char *_path_(char **env, char *command);
+int cletter(char *letters);
 
 #endif /* _SHELL_H_ */

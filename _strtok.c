@@ -9,11 +9,10 @@
 char **_strtok(char *j)
 {
 	unsigned int i;
-	const unsigned int len = _strlen(j);
-	char *token;
+	char *token = NULL;
 	char **tokens = NULL;
 
-	tokens = malloc(len * sizeof(char *));
+	tokens = malloc((cletter(j + 1)) * sizeof(char *));
 	if (tokens == NULL)
 		return (NULL);
 
@@ -22,17 +21,10 @@ char **_strtok(char *j)
 	i = 0;
 	while (token)
 	{
-		tokens[i] = malloc(_strlen(token) * sizeof(char));
-		if (tokens == NULL)
-			return (NULL);
-
 		tokens[i] = token;
-
 		token = strtok(NULL, " \t\r\n");
 		i++;
 	}
-
 	tokens[i] = NULL;
-
 	return (tokens);
 }

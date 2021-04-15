@@ -6,9 +6,9 @@
  * @controller: command line size
 */
 
-void exit_control(char *command, ssize_t controller)
+void _exit_(char *command, ssize_t status)
 {
-	if (controller == -1)
+	if (status == -1)
 	{
 		free(command);
 		command = NULL;

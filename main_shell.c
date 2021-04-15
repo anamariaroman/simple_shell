@@ -6,28 +6,33 @@
 * @env: enviroment
 * Return:0
 */
-int main(int ac, char *av[], char *env[])
+int main(int argc, char *argv[], char *env[])
 {
 	size_t buff;
-	ssize_t controller = 0;
+	ssize_t status = 0;
 	char *command = NULL;
 	/* valgrid review */
 	pid_t id;
 	char **tokenize = NULL;
 	/* valgrid review */
+	/* statuswith an int of getline */
 
-	while (controller != EOF)
+	while (status != EOF)
 	{
 		if (isatty(STDIN_FILENO))
-			_prompt(ac);
-		controller = getline(&command, &buff, stdin);
+		{
+			cisfun(argc);
+		}
+		status = getline(&command, &buff, stdin);
+		_exit_(command, status);
 		tokenize = _strtok(command);
 		if (!env_bool(tokenize[0], env))
 		{
-			exit_control(command, controller);
 			id = fork();
 			if (id < 0)
+			{
 				return (-1);
+			}
 			if (id == 0)
 			{
 				if (execve(_path_(env, tokenize[0]), tokenize, NULL) == EOF)
@@ -37,10 +42,14 @@ int main(int ac, char *av[], char *env[])
 				}
 			}
 			else
+			{
 				wait(NULL);
+			}
+			free(tokenize);
 		}
 	}
-	(void)av;
+	(void)argv;
 	free(command);
+	free(tokenize);
 	return (0);
 }

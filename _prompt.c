@@ -1,12 +1,14 @@
 #include "shell.h"
+
 /**
-* _prompt - make a prompt "$ "
-* @ac: number of arguments
+* cisfun - make a prompt "$ "
+* @argc: number of arguments
 */
-void _prompt(int ac)
+
+void cisfun(int argc)
 {
-	if (ac == 1)
+	if (argc == 1)
 	{
-		write(STDOUT_FILENO, "#CISFUN$ ", 9);
+		write(STDOUT_FILENO, "$ ", 2);
 	}
 }
