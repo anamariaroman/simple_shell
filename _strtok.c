@@ -32,17 +32,17 @@ char **_strtok(char *j)
 	char *token = NULL;
 	char **tokens = NULL;
 
-	tokens = malloc((cletter(j + 1)) * sizeof(char *));
+	tokens = malloc((cletter(j)+ 1)) * sizeof(char *));
 	if (tokens == NULL)
 		return (NULL);
 
-	token = strtok(j, " \t\r\n");
+	token = _strtok(j, " \t\r\n");
 
 	i = 0;
 	while (token)
 	{
 		tokens[i] = token;
-		token = strtok(NULL, " \t\r\n");
+		token = _strtok(NULL, " \t\r\n");
 		i++;
 	}
 	tokens[i] = NULL;
