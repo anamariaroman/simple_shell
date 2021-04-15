@@ -31,10 +31,14 @@ A shell is a microprocessor that executes commands every time the user commands 
 - Clone this repository in your terminal: `git clone https://github.com/anamariaroman/simple_shell.git`
 - Change directory into repository: `cd simple_shell`
 - Compile the project: `./compile`
-  Interactive mode
+
+  ** Interactive mode **
+
 - Run the executable that was created on the previous step: `./hsh`
 - Now, you can try the following commands: `"pwd"` `ls` `w`
-  Non interactive mode
+
+  ** Non interactive mode **
+
 - Whilst you use the non-interactive mode, you won't need to enter/open the executable. Here's an example: `"echo "pwd" | ./hsh`
 
 <h2 align="center">Compilation ▪️ ▫️ ◾ ◽ ◼️</h2> <br>
