@@ -30,7 +30,7 @@ $ ls -l
 $ echo "ls -l" | ./hsh
 
 .SH BUGS
-No known bugs, tell us if yoy can see it.
+No known bugs, tell us if you can see it.
 
 .SH AUTHORS
 
