@@ -1,8 +1,8 @@
 #include "shell.h"
 /**
- * exit_control - use ctrl -D
+ * _exit_ - use ctrl -D
  * @command: command line
- * @controller: command line size
+ * @status: command line size
 */
 void _exit_(char *command, ssize_t status)
 {
