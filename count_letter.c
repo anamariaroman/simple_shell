@@ -6,7 +6,8 @@
 */
 int cletter(char *letters)
 {
-	int i = 0, l = 0;
+	int i = 0;
+	int l = 0;
 
 	while (letters[i])
 	{

@@ -12,6 +12,5 @@ bool env_bool(char *s, char *env[])
 		p_env(env);
 		return (true);
 	}
-
 	return (false);
 }
