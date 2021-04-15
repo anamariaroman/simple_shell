@@ -27,5 +27,6 @@ void obtain_seq(const char *s, int ini, int fin, char **direction);
 void p_env(char **env);
 char *_path_(char **env, char *command);
 int cletter(char *letters);
+void _continue_(char **tok, char **env, char *cmd, struct stat *pi);
 
 #endif /* _SHELL_H_ */
