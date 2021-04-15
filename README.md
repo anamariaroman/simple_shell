@@ -26,6 +26,17 @@ A shell is a microprocessor that executes commands every time the user commands 
 - [x] Your C programs and functions will be compiled with `gcc 4.8.4` using the flags `-Wall -Werror -Wextra and -pedantic`.
 - [x] Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl.
 
+<h2 align="center">Instalation 🔧</h2> <br>
+
+- Clone this repository in your terminal: `git clone https://github.com/anamariaroman/simple_shell.git`
+- Change directory into repository: `cd simple_shell`
+- Compile the project: `./compile`
+  Interactive mode
+- Run the executable that was created on the previous step: `./hsh`
+- Now, you can try the following commands: `"pwd"` `ls` `w`
+  Non interactive mode
+- Whilst you use the non-interactive mode, you won't need to enter/open the executable. Here's an example: `"echo "pwd" | ./hsh`
+
 <h2 align="center">Compilation ▪️ ▫️ ◾ ◽ ◼️</h2> <br>
 
 Your shell will be compiled this way:
@@ -44,8 +55,8 @@ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 | `main_shell.c`       | Shell interpreter                                                     |
 | `README.md`          | General information of this project                                   |
 | `man_1_simple_shell` | Man page of the simple shell                                          |
-| `exit_control.c`     | Function that handles the exit                                        |
-| `token.c`            | This file separates the string of command line                        |
+| `_exit_.c`           | Function that handles the exit with 'CRTL-D' and "exit" command       |
+| `_strtok.c`          | This file separates the string of command line                        |
 | `_prompt.c`          | This file make a prompt `$ `                                          |
 | `compile`            | Script that contains `gcc -Wall -Werror -Wextra -pedantic *.c -o hsh` |
 
